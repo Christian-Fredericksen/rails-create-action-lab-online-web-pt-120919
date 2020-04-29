@@ -34,7 +34,7 @@ describe 'form page' do
     expect(page).to have_content("Margaery")
   end
 
-  it 'creates a record in the database' do
+    it 'creates a record in the database' do
     visit new_student_path
 
     fill_in 'first_name', with: "Sansa"
